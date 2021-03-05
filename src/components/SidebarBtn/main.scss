@@ -1,0 +1,32 @@
+.sidebar-btn{
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    padding: 18px 24px 18px 24px;
+    outline: none;
+    font-weight: normal;
+    line-height: 20px;
+    font-style: normal;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    color: #a4a6b3;
+    border: 3px solid transparent;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    .icon__svg{
+        margin-right: 20px;
+        fill: #a4a6b3;
+    }
+    &:hover{
+        background-color: rgba($color: #9fa2b4, $alpha: 0.08);
+        color: #fff;
+        border-left: 3px solid #fff;
+        .icon__svg{
+            fill: #fff;
+        }
+    }
+}
+
+

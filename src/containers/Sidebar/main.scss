@@ -1,0 +1,15 @@
+.sidebar{
+    background-color: #363740;
+    max-height: 100vh;
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding: 37px 0;
+    .logo{
+        padding: 0 24px;
+        a{
+            text-decoration: none;
+            color: #9fa2b4;
+            font-size: 20px;
+        }
+    }
+}
